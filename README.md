@@ -6,7 +6,9 @@
 ========================================
 
 local discordia = require('discordia')
+
 local client = discordia.Client()
+
 local prefix = "+" ----- คำนำหน้า
 
 client:on('messageCreate', function(message)
